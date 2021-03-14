@@ -4,22 +4,42 @@ import "./Slider.css";
 const slidesInfo = [
   {
     src:
-      "https://cdn.pixabay.com/photo/2016/12/19/08/39/mobile-phone-1917737_960_720.jpg",
+      "./kindaap.png",
     alt: "Project 1",
-    desc: "Project 1",
+    desc: "The Kindness App ",
   },
   {
     src:
-      "https://cdn.pixabay.com/photo/2017/10/31/19/05/web-design-2906159_960_720.jpg",
+      "./covid-app.png",
     alt: "Project 2",
-    desc: "Project 2",
+    desc: "Covid-19 Search",
+  },
+  {
+    src:
+      "./portfolio-v2.png",
+    alt: "Project 3",
+    desc: "Project 3",
   },
   {
     src:
       "https://cdn.pixabay.com/photo/2015/02/05/08/06/macbook-624707_960_720.jpg",
-    alt: "Project 3",
-    desc: "Project 3",
+    alt: "Project 4",
+    desc: "Project 4",
+    href:"https://github.com/Fabianffc/Reverse-Engineering-Code",
+    desc: "Reverse-Engineering"
+
+  },{
+    src:
+      "./budget.png",
+    alt: "Project 5",
+    desc: "Budget",
+  },{
+    src:
+      "./refactoring.png",
+    alt: "Project 6",
+    desc: "Refactoring ",
   },
+  
 ];
 
 const slides = slidesInfo.map((slide) => (

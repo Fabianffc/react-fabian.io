@@ -48,7 +48,7 @@
 
 .linkedin,
 .twitter,
-.facebook {
+.fa-file-pdf {
   color: white;
   font-size: 35px;
   margin: 0 auto;
@@ -56,16 +56,16 @@
   border-bottom: 4px solid transparent;
 }
 
-.linkedin:hover,
-.twitter:hover,
-.facebook:hover {
+.linkedin,
+.twitter,
+.fa-file-pdf{
   border-color: white;
   transition: all 0.3s ease-out;
 }
 
+
 .design-by {
   font-size: 18px;
-  padding-left: 50px;
   color: white;
 }
 
@@ -90,4 +90,5 @@
   .design-by {
     padding: 0 0 40px 0;
   }
+
 }

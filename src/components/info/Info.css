@@ -5,6 +5,10 @@
   color: black;
   margin-bottom: 100vh;
 }
+.personal-info{
+  color:white;
+}
+
 
 .info {
   display: flex;

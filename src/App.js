@@ -25,9 +25,29 @@ function App() {
       <Cover />
       <About />
       <Slider />
-      <Info />
-      <Footer />
-    </div>
+
+      -----------------------------------------
+      <div >
+
+
+   
+         
+          <div>
+            <h1>Contact me</h1>
+            <p>And let's get down to work</p>
+            <ul>
+              <li>Phone: 502-755-0383</li>
+              <li>Email: fabianffc@gmail.com</li>
+              <li>Adress: 1609 W Warren Blvd, Chicago, IL 60612</li>
+            </ul>
+          </div>
+        </div>
+
+
+
+        <Info />
+        <Footer />
+      </div>
   );
 }
 
